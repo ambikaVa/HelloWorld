@@ -1,4 +1,4 @@
-pipeline{
+pipeline {
 agent any 
 stages{
 stage('compile')
@@ -7,14 +7,14 @@ steps
 {
 sh echo "Compiling ....."
 }
-}
+
 stage('build')
 
 steps
 {
 sh echo "Builiding ....."
 }
-}
+
 
 stage('test')
 
@@ -22,7 +22,7 @@ steps
 {
 sh echo "Testing ....."
 }
-}
+
 
 
 }

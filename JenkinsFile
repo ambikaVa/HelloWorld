@@ -22,7 +22,5 @@ steps
 {
 sh echo "Testing ....."
 }
-
-
-
+}
 }
